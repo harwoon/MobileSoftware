@@ -74,6 +74,24 @@
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.PocketMate" />
+        <activity
+            android:name=".PocketActivity"
+            android:exported="false"
+            android:parentActivityName=".PocketBoardActivity" />
+        <activity
+            android:name=".MyPocketBoardActivity"
+            android:exported="false"
+            android:parentActivityName=".PocketBoardActivity" />
+        <activity
+            android:name=".WritePocketBoardActivity"
+            android:exported="false"
+            android:parentActivityName=".PocketBoardActivity" />
+        <activity
+            android:name=".PocketAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".PocketBoardActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
